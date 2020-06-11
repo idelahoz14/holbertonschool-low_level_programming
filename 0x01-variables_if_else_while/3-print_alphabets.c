@@ -13,7 +13,6 @@ while (letter <= "z")
 putchar(letter);
 letter++;
 }
-putchar("\n");
 
 char letter = "A";
 while (letter <= "Z")
