@@ -1,9 +1,10 @@
 #include <stdio.h>
-/**                                                                                                                                                                                                        
- *main - Entry point                                                                                                                                                                                       
- *                                                                                                                                                                                                         
- *Description: This program prints all letters from a-z in lowercase and uppercase                                                                                                                                     
- *Return: Returns 0 upon successful completion                                                                                                                                                             
+/**
+ *main - Entry point
+ *
+ *Description: This program prints all letters from a-z in lowercase
+ * and uppercase
+ *Return: Returns 0 upon successful completion
  */
 int main(void)
 {
