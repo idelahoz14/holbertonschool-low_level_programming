@@ -8,20 +8,23 @@
  */
 int main(void)
 {
-char letter = "a";
-while (letter <= "z")
+char letter = 'a';
+
+while (letter <= 'z')
 {
 putchar(letter);
 letter++;
 }
 
-char letter = "A";
-while (letter <= "Z")
+letter = 'A';
+
+while (letter <= 'Z')
 {
 putchar(letter);
 letter++;
 }
-putchar("\n");
+
+putchar('\n');
 
 return (0);
 }
