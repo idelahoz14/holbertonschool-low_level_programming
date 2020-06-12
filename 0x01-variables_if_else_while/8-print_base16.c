@@ -10,12 +10,12 @@ int main(void)
 char num = '0';
 char letter = 'a';
 
-while (num < '10')
+while (num <= '9')
 {
 putchar(num);
 num++;
 }
-while (letter < 'g')
+while (letter <= 'f')
 {
 putchar(letter);
 letter++;
