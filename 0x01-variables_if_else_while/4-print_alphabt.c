@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-char l = "a";
+char l = 'a';
 for (l; l < z; l++)
 {
-if (l != "q" || l != "e")
+if (l != 'q' || l != 'e')
 {
 putchar(l);
 }
 }
-putchar("\n")
+putchar('\n')
 return (0)
 }
