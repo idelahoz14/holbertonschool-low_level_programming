@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ *main - Entry point 
  *
  *Description: Function will print all single digit numbers in a comma
  *separated list without the use of any char variables.
