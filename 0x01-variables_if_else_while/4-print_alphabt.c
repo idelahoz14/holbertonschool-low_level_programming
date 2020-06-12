@@ -9,7 +9,7 @@
 int main(void)
 {
 char l = 'a';
-for (l; l < z; l++)
+for (l = 'a'; l < 'z'; l++)
 {
 if (l != 'q' || l != 'e')
 {
