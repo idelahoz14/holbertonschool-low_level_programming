@@ -8,13 +8,14 @@ void main(void)
 {
 int num = '0';
 
-do{
+do {
 int letter = 'a';
-while (letter <= z){
+while (letter <= z)
+{
 _putchar(letter);
 letter++;
 }
 num++;
 _putchar('\n');
-}while (num < '10');
+} while (num < '10');
 }
