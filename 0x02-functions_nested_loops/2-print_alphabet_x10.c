@@ -4,7 +4,7 @@
  *
  *Return: Always 0
  */
-void main(void)
+void print_alphabet_x10(void)
 {
 int num = '0';
 
