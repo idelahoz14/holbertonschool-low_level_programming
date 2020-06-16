@@ -2,7 +2,7 @@
 /**
  *Description: This program will return the absolute value of a number
  *
- *Return: Always 0
+ *Return: the absolute value of an integer.
  */
 int _abs(int)
 {
