@@ -1,8 +1,9 @@
 #include "holberton.h"
 /**
- *print_alphabetx10 - prints the letters from a to z in lowercase x10
+ *print_alphabet_x10 - prints alphabet 10x
  *
- *Return: Always 0
+ *Description: This program will print the lowercase letters ten times
+ *Return: 0 upon successful completion
  */
 void print_alphabet_x10(void)
 {
