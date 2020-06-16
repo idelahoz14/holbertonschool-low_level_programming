@@ -1,10 +1,11 @@
 #include "holberton.h"
 /**
- *checks for uppercase character
+ *_isalpha - decides if the character is a letter
  *
- *Return: Always 0.
+ *Description: This program will check if the letter is lowercase or uppercase
+ *Return: 1 if lowercase or uppercase letter, 0 otherwise
  */
-int _isalphe(int c)
+int _isalpha(int c)
 {
 if (c < 'a' && c > 'z')
 {
