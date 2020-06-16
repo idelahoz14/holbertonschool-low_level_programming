@@ -7,16 +7,17 @@
  */
 void print_alphabet_x10(void)
 {
-int num = '0';
+int counter = 0;
 
-do {
+while (counter < 10)
+{
 int letter = 'a';
-while (letter <= z)
+while (letter <= 'z')
 {
 _putchar(letter);
 letter++;
 }
-num++;
 _putchar('\n');
-} while (num < '10');
+counter++;
+}
 }
