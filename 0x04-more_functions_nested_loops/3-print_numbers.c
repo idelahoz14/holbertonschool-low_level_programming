@@ -11,7 +11,7 @@ int number = '0';
 
 while (number <= '9')
 {
-_putchar(number)
+_putchar(number);
 number++;
 }
 _putchar('\n');
