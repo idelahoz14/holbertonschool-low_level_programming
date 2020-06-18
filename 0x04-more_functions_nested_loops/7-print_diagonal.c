@@ -9,12 +9,6 @@ void print_diagonal(int n)
 {
 int index = 0;
 
-if (n <= 0)
-{
-_putchat('\n');
-}
-else
-{
 while (index < n)
 {
 int space = 0;
@@ -26,6 +20,5 @@ space++;
 }
 _putchar('\\');
 index++;
-}
 }
 }
