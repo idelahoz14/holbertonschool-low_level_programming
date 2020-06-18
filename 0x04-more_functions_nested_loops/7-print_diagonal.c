@@ -7,6 +7,12 @@
  */
 void print_diagonal(int n)
 {
+if (n <= 0)
+{
+_putchar('\n');
+}
+else
+{
 int index = 0;
 
 while (index < n)
@@ -19,6 +25,8 @@ _putchar(' ');
 space++;
 }
 _putchar('\\');
+_putchar('\n');
 index++;
+}
 }
 }
