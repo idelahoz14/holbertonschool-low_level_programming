@@ -14,10 +14,10 @@ int count = 0;
 
 while (count < size)
 {
-putchar('#');
+_putchar('#');
 count++;
 }
-putchar('\n');
+_putchar('\n');
 index++;
 } while (index < size);
 }
