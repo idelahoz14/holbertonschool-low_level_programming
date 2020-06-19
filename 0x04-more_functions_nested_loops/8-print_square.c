@@ -19,5 +19,5 @@ count++;
 }
 putchar('\n');
 index++;
-} while x(index < size);
+} while (index < size);
 }
