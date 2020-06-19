@@ -3,14 +3,13 @@
  *print_triangle - prints triangles
  *@size: test varible
  *
- *Description: Will print a triangle of size specified followed by a
- *new line. If size is 0 or less, then it will only print a new line.
+ *Description: print triangle
  *Return: void
  */
 void print_triangle(int size)
 {
-int space;
-int index:
+int spaces = 1;
+int pounds = 1;
 int rows = 1;
 
 if (size <= 0)
@@ -21,17 +20,17 @@ return;
 
 while (rows <= size)
 {
-space = 1;
-index = 1;
-while (space <= (size - rows))
+spaces = 1;
+pounds = 1;
+while (spaces <= (size - rows))
 {
 _putchar(' ');
-space++;
+spaces++;
 }
-while (index <= rows)
+while (pounds <= rows)
 {
 _putchar('#');
-index++;
+pounds++;
 }
 _putchar('\n');
 rows++;
