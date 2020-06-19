@@ -10,31 +10,25 @@
  */
 int main(void)
 {
-
-int number = 1;
-
-while (number <= 100)
-{
-if ((number % 3) == 0 && (number % 5) == 0)
-{
-printf("FizzBuzz ");
-}
-else if ((number % 3) == 0 && (number % 5) != 0)
+int a;
+    
+for (a = 1; a < 100; a++)
+{     
+if ((a % 3 == 0) && (a % 5 != 0))
 {
 printf("Fizz ");
 }
-else if ((number % 3) != 0 && (number % 5) == 0)
+else if (a % 5 == 0)
 {
 printf("Buzz ");
+}      
+else if (a % 3 == 0)
 {
+printf("FizzBuzz ");
+}    
 else
-{
-printf("%d ", number);
-}
-if (number != 100)
-{
-number++;
+printf("%d ", a);
+}   
 printf("\n");
-}
 return (0);
 }
