@@ -10,6 +10,7 @@
  */
 int main(void)
 {
+
 int number = 1;
 
 while (number <= 100 && number != 100)
