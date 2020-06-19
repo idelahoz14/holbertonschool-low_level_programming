@@ -22,7 +22,7 @@ else if ((number % 3) != 0 && (number % 5) == 0)
 printf("Buzz ");
 else
 printf("%d ", num);
-num++;
+number++;
 printf("\n");
 return (0);
 }
