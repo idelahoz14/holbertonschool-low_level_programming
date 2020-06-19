@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  *main - entry point
- *
  *Description: This program will print the numbers between 1 and 100
  *Return: 0
  */
@@ -19,7 +18,7 @@ else if ((number % 5 == 0) && (number % 3 != 0))
 {
 printf("Buzz");
 }
-else if ((number % 3 == 0) && (number % 5 == 0))
+else if ((number % 3 == 0) && (number % 5 != 0))
 {
 printf("Fizz");
 }
