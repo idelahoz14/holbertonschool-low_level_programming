@@ -12,7 +12,7 @@ int main(void)
 {
 int number;
 
-for (a = 1; a < 100; number++)
+for (number = 1; a < 100; number++)
 {
 if ((number % 3 == 0) && (number % 5 != 0))
 {
