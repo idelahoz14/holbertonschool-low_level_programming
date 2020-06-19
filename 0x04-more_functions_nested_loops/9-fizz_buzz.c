@@ -3,10 +3,7 @@
  *main - entry point
  *
  *Description: This program will print the numbers between 1 and 100
- *followed by a new line. For multiples of 3, the program will print
- *Fizz instead of the number. For multiples of 5, it will print Buzz.
- *If the numbers are multiples of both, it prints FizzBuzz.
- *Return: 0 upon successful completion
+ *Return: 0
  */
 int main(void)
 {
@@ -32,7 +29,7 @@ printf("%d", number);
 }
 if (number != 100)
 {
-printf(' ');
+printf(" ");
 }
 }
 printf("\n");
