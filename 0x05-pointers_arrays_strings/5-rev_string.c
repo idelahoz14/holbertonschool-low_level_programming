@@ -20,7 +20,7 @@ _putchar('\n');
 s--;
 while (count != 0)
 {
-putchar(*s);
+_putchar(*s);
 s--;
 count--;
 }
