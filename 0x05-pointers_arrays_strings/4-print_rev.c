@@ -13,7 +13,6 @@ while (*s != '\0')
 count++;
 s++;
 }
-    
 while (count != 0)
 {
 putchar(*s);
