@@ -11,13 +11,11 @@ int count = 0;
 
 while (*s != '\0')
 {
-_putchar(*s);
 count++;
 s++;
 }
-_putchar('\n');
 s--;
-while (*s > count)
+while (count != 0)
 {
 _putchar(*s);
 s--;
