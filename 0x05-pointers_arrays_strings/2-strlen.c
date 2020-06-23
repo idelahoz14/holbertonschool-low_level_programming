@@ -16,5 +16,5 @@ while (*c != '\0')
 count++;
 c++;
 }
-_putchar (count);
+return (count);
 }
