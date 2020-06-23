@@ -11,17 +11,17 @@ int count = 0;
 
 while (*s != '\0')
 {
-putchar(*s);
+_putchar(*s);
 count++;
 s++;
 }
-putchar('\n');
+_putchar('\n');
 s--;
 while (*s > count)
 {
-putchar(*s);
+_putchar(*s);
 s--;
 count--;
 }
-putchar('\n');
+_putchar('\n');
 }
