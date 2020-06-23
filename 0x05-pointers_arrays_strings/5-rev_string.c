@@ -2,7 +2,6 @@
 /**
  *rev_string - reverses a string
  *@s: test variable
- *
  *Description: Reverses a string directly at its pointer address
  *Return: void
  */
