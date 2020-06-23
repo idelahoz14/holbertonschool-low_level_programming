@@ -19,5 +19,5 @@ _putchar(*s);
 s--;
 count--;
 }
-_putchar ('\n');
+_putchar('\n');
 }
