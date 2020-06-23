@@ -19,4 +19,5 @@ _putchar(*s);
 s--;
 count--;
 }
+_putchar ('\n');
 }
