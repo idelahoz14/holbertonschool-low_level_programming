@@ -17,7 +17,7 @@ s++;
 }
 _putchar('\n');
 s--;
-while (count != 0)
+while (*s > count)
 {
 _putchar(*s);
 s--;
