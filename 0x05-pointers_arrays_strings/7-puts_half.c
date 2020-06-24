@@ -18,7 +18,7 @@ if (count % 2 == 0)
 {
 for (i = middle; str[i] != 0; i++)
 {
-putchar(str[i]);
+_putchar(str[i]);
 }
 }
 else
@@ -26,7 +26,7 @@ else
 middle = (count - 1) / 2;
 for (i = middle; str[i] != 0; i++)
 {
-putchar(str[i]);
+_putchar(str[i]);
 }
 }
 }
