@@ -11,7 +11,7 @@ void print_array(int *a, int n)
 {
 int counter;
 
-while (i < n)
+while (i < counter)
 {
 printf("%d", a[counter]);
 counter++;
