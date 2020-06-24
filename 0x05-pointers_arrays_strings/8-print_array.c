@@ -9,13 +9,13 @@
  */
 void print_array(int *a, int n)
 {
-int i;
+int counter;
 
 while (i < n)
 {
-printf("%d", a[i]);
-i++;
-if (i != n)
+printf("%d", a[counter]);
+counter++;
+if (counter != n)
 printf(", ");
 }
 printf("\n");
