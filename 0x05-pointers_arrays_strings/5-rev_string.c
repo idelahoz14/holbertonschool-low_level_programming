@@ -9,10 +9,9 @@ void rev_string(char *s)
 {
 int aux1, aux2;
 char holberton_al_reves;
- 
 aux1 = 0;
 aux2 = 0;
- 
+
 while (s[aux1] != '\0')
 {
 aux1++;
