@@ -16,9 +16,9 @@ for (i = 0; st[i] != '\0'; i++)
 count++;
 }
 count = count + 1;
-middle = count / 2;
 if (count % 2 == 0)
 {
+middle = count / 2;
 for (i = middle; st[i] != '\0'; i++)
 {
 _putchar(st[i]);
