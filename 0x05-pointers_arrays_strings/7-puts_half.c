@@ -32,4 +32,5 @@ for (i = middle; st[i] != '\0'; i++)
 _putchar(st[i]);
 }
 }
+_putchar('\n');
 }
