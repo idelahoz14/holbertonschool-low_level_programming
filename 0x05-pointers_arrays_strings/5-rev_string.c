@@ -7,18 +7,24 @@
  */
 void rev_string(char *s)
 {
-int count = 0;
+int aux1, aux2;
+char holberton_al_reves;
+ 
+aux1 = 0;
+aux2 = 0;
+ 
+while (s[aux1] != '\0')
+{
+aux1++;
+}
 
-while (*s != '\0')
+aux1 = aux1 - 1;
+while (aux1 > aux2)
 {
-count++;
-s++;
+holberton_al_reves = s[aux2];
+s[aux2] = s[aux1];
+s[aux1] = holberton_al_reves;
+aux1--;
+aux2++;
 }
-s--;
-while (count != 0)
-{
-s--;
-count--;
-}
-_putchar('\n');
 }
