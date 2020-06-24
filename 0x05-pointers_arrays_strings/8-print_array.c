@@ -11,10 +11,9 @@ void print_array(int *a, int n)
 {
 int counter = 0;
 
-while (counter < n)
+for (counter; counter < n; counter++)
 {
 printf("%d", a[counter]);
-counter++;
 if (counter != n)
 {
 printf(", ");
