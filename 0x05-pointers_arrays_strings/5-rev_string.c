@@ -17,7 +17,6 @@ s++;
 s--;
 while (count != 0)
 {
-_putchar(*s);
 s--;
 count--;
 }
