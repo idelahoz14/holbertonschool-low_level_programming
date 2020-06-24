@@ -16,7 +16,7 @@ count++;
 middle = count / 2;
 if (count % 2 == 0)
 {
-for (i = middle; str[i] != '0'; i++)
+for (i = middle; str[i] != '\0'; i++)
 {
 _putchar(str[i]);
 }
@@ -24,7 +24,7 @@ _putchar(str[i]);
 else
 {
 middle = (count - 1) / 2;
-for (i = middle; str[i] != '0'; i++)
+for (i = middle; str[i] != '\0'; i++)
 {
 _putchar(str[i]);
 }
