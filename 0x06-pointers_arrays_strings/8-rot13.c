@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * rot13 - encodes a string using rot13.
- * @s: test variable
- * Return: s
+ * @str: test variable
+ * Return: string
  */
 char *rot13(char *str)
 {
