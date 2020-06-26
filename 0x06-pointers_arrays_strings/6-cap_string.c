@@ -9,9 +9,9 @@ char *cap_string(char *str)
 {
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		switch (s[i])
+		switch (str[i])
 		{
 		case ' ':
 			i++;
@@ -40,11 +40,11 @@ char *cap_string(char *str)
 		case '}':
 			i++;
 
-			if (s[i] >= 'a' && s[i] <= 'z')
+			if (str[i] >= 'a' && str[i] <= 'z')
 			{
-				s[i] = s[i] - 32;
+				str[i] = str[i] - 32;
 			}
 		}
 	}
-	return (s);
+	return (str);
 }
