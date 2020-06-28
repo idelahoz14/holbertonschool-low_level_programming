@@ -5,7 +5,7 @@
  *@b: test variable
  *@n: test variable
  *
- *Return: pointer to memory area
+ *Return: string
  */
 char *_memset(char *s, char b, unsigned int n)
 {
