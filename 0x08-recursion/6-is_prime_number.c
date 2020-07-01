@@ -20,7 +20,7 @@ int test(int num, int count)
  */
 int is_prime_number(int n)
 {
-	int test = 2;
+	int s = 2;
 
-	return (test(n, test));
+	return (test(n, s));
 }
