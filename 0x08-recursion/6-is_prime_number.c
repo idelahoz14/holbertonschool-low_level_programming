@@ -15,7 +15,7 @@ int is_prime_number(int n)
 }
 
 /**
- *primetest - checks if number is prime
+ *test - checks if number is prime
  *@n: number to test
  *@counter: test variable
  *
