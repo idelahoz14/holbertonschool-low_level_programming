@@ -11,6 +11,12 @@ int is_prime_number(int n)
 
 	return (test(n, test));
 }
+/**
+ * check_num - check the number.
+ * @num: number
+ * @base: base number
+ * Return: if num is prime 1
+ */
 int test(int num, int base)
 {
 	if (num <= 1 || num % base == 0)
