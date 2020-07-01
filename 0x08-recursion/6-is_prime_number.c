@@ -2,7 +2,7 @@
 /**
  * test - check the number.
  * @num: number
- * @base: base number
+ * @count: base number
  * Return: if is prime 1 else 0.
  */
 int test(int num, int count)
