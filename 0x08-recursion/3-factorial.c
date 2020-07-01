@@ -7,7 +7,7 @@
  */
 int factorial(int n)
 {
-	int num;
+	int s;
 
 	if (n < 0)
 	{
@@ -15,11 +15,11 @@ int factorial(int n)
 	}
 	if (n == 0)
 	{
-		num = 1;
+		s = 1;
 	}
 	else
 	{
-		num = n * factorial(n - 1);
+		s = n * factorial(n - 1);
 	}
-	return (num);
+	return (s);
 }
