@@ -1,11 +1,9 @@
 #include "holberton.h"
 /**
- *_puts_recursion - prints a string recursively
- *
- *@s: test variable
- *Return: void
+ * _puts_recursion - prints a string, followed by a new line.
+ * @s: string
+ * Return: void
  */
-
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
@@ -13,7 +11,10 @@ void _puts_recursion(char *s)
 		_putchar('\n');
 		return (-1);
 	}
-	_putchar(*s);
-	s++;
-        _puts_rescursion(s);
+	else
+	{
+		_putchar(*s);
+		s++;
+		_puts_recursion(s);
+	}
 }
