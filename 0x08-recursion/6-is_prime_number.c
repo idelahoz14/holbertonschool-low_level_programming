@@ -7,28 +7,15 @@
  */
 int is_prime_number(int n)
 {
-	int counter = 2;
+	int test = 2;
 
-	if (n == 1)
-		return (0);
-	return (primetest(n, counter));
+	return (test(n, test));
 }
-
-/**
- *primetest - checks if number is prime
- *@n: number to test
- *@counter: tracker to count up for primes
- *
- *Return: 1 if prime, 0 otherwise
- */
-int primetest(int n, int counter)
+int test(int num, int base)
 {
-	if (n == counter)
-		return (1);
-	if ((n % counter) != 0)
-	{
-		return (primetest(n, counter + 1));
-	}
-	else
+	if (num <= 1 || num % base == 0)
 		return (0);
+	if (base * base > num)
+		return (1);
+	return (check_num(num, base + 1));
 }
