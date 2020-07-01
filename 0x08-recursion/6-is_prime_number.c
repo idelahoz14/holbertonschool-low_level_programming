@@ -1,17 +1,17 @@
 #include "holberton.h"
 /**
- * check_num - check the number.
+ * test - check the number.
  * @num: number
  * @base: base number
  * Return: if is prime 1 else 0.
  */
-int check_num(int num, int base)
+int test(int num, int count)
 {
-	if (num <= 1 || num % base == 0)
+	if (num <= 1 || num % count == 0)
 		return (0);
-	if (base * base > num)
+	if (count * count > num)
 		return (1);
-	return (check_num(num, base + 1));
+	return (test(num, count + 1));
 }
 /**
  * is_prime_number - check if a number is prime.
@@ -20,5 +20,7 @@ int check_num(int num, int base)
  */
 int is_prime_number(int n)
 {
-	return (check_num(n, 2));
+	int test = 2;
+
+	return (test(n, test));
 }
