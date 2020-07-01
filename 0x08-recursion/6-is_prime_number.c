@@ -31,7 +31,7 @@ int test(int n, int counter)
 	}
 	if ((n % counter) != 0)
 	{
-		return (primetest(n, counter + 1));
+		return (test(n, counter + 1));
 	}
 	else
 	{
