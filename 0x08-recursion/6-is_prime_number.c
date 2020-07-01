@@ -11,22 +11,22 @@ int is_prime_number(int n)
 
 	if (n == 1 || n == -1)
 		return (0);
-	return (test(n, counter));
+	return (primetest(n, counter));
 }
 
 /**
- *test - checks if number is prime
+ *primetest - checks if number is prime
  *@n: number to test
- *@counter: test variable
+ *@counter: tracker to count up for primes
  *
  *Return: 1 if prime, 0 otherwise
  */
-int test(int n, int counter)
+int primetest(int n, int counter)
 {
 	if (n == counter)
 		return (1);
 	if ((n % counter) != 0)
-		return (test(n, counter + 1));
+		return (primetest(n, counter + 1));
 	else
 		return (0);
 }
