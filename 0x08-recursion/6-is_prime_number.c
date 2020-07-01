@@ -26,7 +26,9 @@ int primetest(int n, int counter)
 	if (n == counter)
 		return (1);
 	if ((n % counter) != 0)
+	{
 		return (primetest(n, counter + 1));
+	}
 	else
 		return (0);
 }
