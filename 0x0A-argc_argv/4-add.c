@@ -5,7 +5,7 @@
  *manin - function
  *@argc: number argument
  *@argv: array of string
- *Return: Sum or 1.
+ *Return: Sum or 1(ERROR).
  */
 int main(int argc, char *argv[])
 {
