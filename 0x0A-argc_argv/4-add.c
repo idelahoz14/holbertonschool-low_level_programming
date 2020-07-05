@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j, result = 0;
+	int i, j, suma = 0;
 
 	if (argc > 1)
 	{
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 					return (1);
 				}
 			}
-			result = result + atoi(argv[i]);
+			suma += atoi(argv[i]);
 		}
 	}
 	else
@@ -31,6 +31,6 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	printf("%d\n", result);
+	printf("%d\n", suma);
 	return (0);
 }
