@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
- *
+ *main - functions
+ *@argc: number argument
+ *@argv: array of string
+ *Return: resul
  */
 int main(int argc, char *argv[])
 {
