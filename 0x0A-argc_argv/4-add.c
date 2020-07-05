@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
- *manin - function
+ *main - function
  *@argc: number argument
  *@argv: array of string
  *Return: suma or 1.
