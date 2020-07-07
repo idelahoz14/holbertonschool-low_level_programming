@@ -8,25 +8,37 @@
  */
 char *_strdup(char *str)
 {
-	int i, lengh = 0;
+	int i;
 	char *s;
 
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		lengh++;
-	}
-
-	s = malloc((sizeof(char) * lengh));
+	s = malloc((sizeof(char) * _strlen(str)));
 
 	if (s == NULL)
 	{
 		return (NULL);
 	}
 
-	for (i = 0; i < lengh; i++)
+	for (i = 0; i < _strlen(str); i++)
 	{
 		s[i] = str[i];
 	}
+
 	s[i] = '\0';
 	return (s);
+}
+
+/**
+ * _strlen - returns the length of a string.
+ * @s: Pointer
+ * Return: Always 0.
+ */
+int _strlen(char *s)
+{
+	int i;
+
+	for (i = 0; s[i] != 0; i++)
+	{
+	}
+
+	return (i);
 }
