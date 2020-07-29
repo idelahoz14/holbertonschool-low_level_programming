@@ -10,6 +10,11 @@ int pop_listint(listint_t **head)
 	int n;
 	listint_t *node;
 
+	if (*head == NULL)
+	{
+		return (0);
+	}
+
 	node = (*head);
 	n = (*head)->n;
 	*head = (*head)->next;
