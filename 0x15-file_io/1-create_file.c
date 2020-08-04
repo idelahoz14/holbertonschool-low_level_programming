@@ -15,7 +15,6 @@ int _strlen(char *str)
 
 	return (lengh);
 }
-
 /**
  * create_file - creates a file
  * @filename: name of the file to be created
@@ -27,7 +26,7 @@ int create_file(const char *filename, char *text_content)
 {
 	int s, show;
 
-	if (filanme == NULL)
+	if (filename == NULL)
 	{
 		return (0);
 	}
@@ -47,7 +46,7 @@ int create_file(const char *filename, char *text_content)
 	show = write(s, text_content, _strlen(text_content));
 	close(s);
 
-	if (s == -1)
+	if (show == -1)
 	{
 		return (-1);
 	}
