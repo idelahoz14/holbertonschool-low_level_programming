@@ -39,7 +39,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-	show = write (STDOUT_FILENO, ptr, num_bytes);
+	show = write(STDOUT_FILENO, ptr, num_bytes);
 	free(ptr);
 	return (show);
 }
